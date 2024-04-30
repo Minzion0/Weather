@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/project
+    username: root
+    password: 8338
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    database: mysql
+
+#logging:
+#  config: classpath:logback-spring.xml
+
+
+
+
+
+
+
+
+
+
+#api key
+openweathermap:
+  key: f1b2fc65d766be9a415cbf6e653e0e74
